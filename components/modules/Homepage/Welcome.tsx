@@ -47,8 +47,8 @@ export const Welcome = () => {
           </div>
         </div>
         <div className="flex 2xl:flex-row flex-col mt-10">
-          <div className="2xl:w-2/3 w-full object-contain">
-            <Image src="/images/rarity.png" alt="" width={661} height={441} />
+          <div className="2xl:w-2/3 w-full object-contain ">
+            <img src="/images/rarity.png" alt="" />
           </div>
 
           <div className="flex flex-col justify-center items-start text-left lg:mt-0 mt-10 mx-auto lg:p-12 p-6">
