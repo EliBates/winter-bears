@@ -1,0 +1,23 @@
+@import './fonts/fonts';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.maxHeight {
+  max-height: 60vh !important;
+}
+.banner {
+  z-index: -1;
+  position: absolute;
+  top: 2rem !important;
+  object-fit: contain !important;
+}
+
+.banner-img {
+  object-fit: contain !important;
+}
+.hidden-img {
+  @media screen and (max-width: 756px) {
+    display: none !important;
+  }
+}
